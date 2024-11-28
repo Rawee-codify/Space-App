@@ -25,7 +25,24 @@ class _MyAppState extends State<Secondscreen> {
               "Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum",
               textAlign: TextAlign.center,
               style: TextStyle(color: Colors.white),
-            )
+            ),
+            Center(
+              child: Container(
+                padding: const EdgeInsets.all(15),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(100),
+                  color: const Color.fromARGB(255, 237, 233, 233),
+                ),
+                width: 200,
+                child: const Center(
+                  child: Text(
+                    "SPACE DEATAIL",
+                    style: TextStyle(color: Colors.white),
+                    //here is the change one
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ),
